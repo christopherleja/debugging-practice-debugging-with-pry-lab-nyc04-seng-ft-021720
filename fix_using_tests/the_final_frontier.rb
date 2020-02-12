@@ -15,7 +15,7 @@ end
 
 def greet_crew(crew)
   crew.each do |crew_member| 
-    return "Hello #{crew_member}."
+    puts "Hello #{crew_member}."
 binding.pry
 end
 end
