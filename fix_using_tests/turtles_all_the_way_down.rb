@@ -9,10 +9,12 @@ def turtles
 end
 
 def turtle_traits(turtles)
+  new_arr = []
   turtles.map do |turtle|
     turtle[:traits].map do |trait|
-    puts trait
+    new_arr.push(trait)
     binding.pry 
     end
   end
+  new_arr
 end
