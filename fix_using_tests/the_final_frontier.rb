@@ -14,7 +14,7 @@ def crew
 end
 
 def greet_crew(crew)
-  crew_greetings = crew.each {|c| "Hello #{c}."}
+  crew_greetings = crew.each {|c| puts "Hello #{c}."}
   crew_greetings
   binding.pry
 end
