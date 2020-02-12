@@ -14,8 +14,8 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each {|crew_member| result = puts "Hello #{crew_member}."}
-  result
+  crew.each {|crew_member| result = "Hello #{crew_member}."}
+  puts result
 end
 
 def engage
